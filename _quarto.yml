@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Active maintenance"
+  site-url: https://active-maintenance-aec.github.io/
+  navbar:
+    left:
+      - text: Papers
+        href: index.qmd
+      - text: Guide
+        href: https://active-maintenance-aec.github.io/guide/
+    right:
+      - icon: github
+        href: https://github.com/active-maintenance-aec
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand.scss
+    include-in-header: _in_header.html
+    toc: false

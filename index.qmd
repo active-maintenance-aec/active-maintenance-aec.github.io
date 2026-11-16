@@ -1,0 +1,17 @@
+---
+title: "Active maintenance"
+pagetitle: "Active maintenance"
+---
+
+Active maintenance is the practice of updating a published paper's replication code as the software around it changes, so that its results stay reproducible for years rather than months ([Peer, Orr, and Coppock 2021](https://doi.org/10.1017/s1049096521000366)). Each repository below holds the maintained version of one of my books or articles. It fetches the original replication deposit and checks every file against a checksum manifest, reproduces every printed number on current software, checks every claim in the text a second way, and publishes an itemized errata note whose corrections are computed by the code. A scheduled job reruns each one every eight weeks.
+
+- **How we did it:** [the guide](https://active-maintenance-aec.github.io/guide/), written so that you can do the same for your own papers.
+- **The scheduled check:** [`maintenance`](https://github.com/active-maintenance-aec/maintenance), the shared workflow every repository calls.
+
+## Maintained papers
+
+*Claims checked* counts the distinct printed claims each repository compares against the code. *Errata* counts the entries in each paper's errata note, including typos and corrections to the reference list. *DOI* is the repository's archived version at Zenodo.
+
+{{< include _papers.md >}}
+
+[Alexander Coppock](https://alexandercoppock.com), Northwestern University.
