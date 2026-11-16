@@ -6,6 +6,7 @@ website:
   title: "Active maintenance"
   site-url: https://active-maintenance-aec.github.io/
   navbar:
+    background: light
     left:
       - text: Papers
         href: index.qmd
@@ -20,5 +21,6 @@ format:
     theme:
       - cosmo
       - brand.scss
+      - site.scss
     include-in-header: _in_header.html
     toc: false
