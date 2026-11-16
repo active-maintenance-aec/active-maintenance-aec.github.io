@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - papers.csv
 
 website:
   title: "Active maintenance"

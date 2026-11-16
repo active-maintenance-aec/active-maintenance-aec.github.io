@@ -14,4 +14,6 @@ Active maintenance is the practice of updating a published paper's replication c
 
 {{< include _papers.md >}}
 
+The same table is available as [papers.csv](papers.csv), one row per paper.
+
 [Alexander Coppock](https://alexandercoppock.com), Northwestern University.
